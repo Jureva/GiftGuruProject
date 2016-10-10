@@ -1,0 +1,107 @@
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" src="assets/slideshow1.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Welcome to GiftGuru</h1>
+              <p>Your one stop shop for that perfect gift, easy to find and easy to send. Sign up now and start shopping.</p>
+              <p><%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="second-slide" src="assets/slideshow2.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Visit our online store.</h1>
+              <p>Our hand selected gifts will be perfect for any occasion. Take a trip to our store and check it out for yourself.</p>
+              <p><%= link_to "Visit the store", store_path, class: "btn btn-lg btn-primary" %></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="third-slide" src="assets/slideshow3.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Fathers day is coming.</h1>
+              <p>Get ahead of the crowds and pick up that perfect gift. Show your father just how much you love him this fathers day with one of our amazing gifts.</p>
+              <p><%= link_to "Browse", store_path, class: "btn btn-lg btn-primary" %></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+      
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Christmas shopping early. <span class="text-muted">Get ahead of the crowds.</span></h2>
+          <p class="lead">Picky wife? Ultra-cool teen? Eco-worrier sister? Find the perfect gifts for all the family with our biggest-ever Christmas guide. We've done the hard work, so all you have to do is a bit of online shopping,try these glorious gifts.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="assets/christmas-gift-1.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Fathers day selection available. <span class="text-muted">You only have one father after all.</span></h2>
+          <p class="lead">Choosing gifts can be incredibly hard, and sure it’s always simple to take the easy way out with a tie or coffee mug, but why not do something great this year? We're sure Dad would be very appreciative no matter what you got for him on Father’s Day, but while a heartfelt card and hug are nice, so is the perfect gift at GiftGuru for every type of dad, from the avid outdoorsman to the obsessed film afficionado.</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" src="assets/fathers-day-gift-3.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Show her how special she is. <span class="text-muted">Amazing cosmetics available.</span></h2>
+          <p class="lead">Whether you're shopping for mom, grandma, your mother-in-law, or even a friend, we have dozens of unique gifts that are perfect for that special woman in your life. Honoring mom on Mother's Day is budget-friendly with our awesomely affordable gift ideas, including jewelry, accessories, kitchen ware, chocolates, cards, and more. </p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="assets/mothers-day-gift-3.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+
+      <!-- /END THE FEATURETTES -->
+      
+      <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>

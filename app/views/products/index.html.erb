@@ -1,0 +1,23 @@
+<h3 class="text-center">Products for Sale</h3>
+
+<div class="row">
+  <div class="col-xs-6 col-xs-offset-3">
+    <%= form_tag(products_path, :method => 'get',id: "search-form") do %>
+    <%= text_field_tag :search, params[:search], placeholder: "Search Products" %>
+    <%= submit_tag "Search" %>
+    <% end %>
+    
+
+    <% if @products.present? %>
+      <%= @products %>
+    <% else %>
+      <p>There are no products containing the term(s) <%= params[:search] %>.</p>
+    <% end %>
+      
+    <% @products.each do |product| %>
+      <%= render "product_row", product: product, order_item: @order_item %>
+    <% end %>
+    <%= link_to "Checkout", new_payment_path, class: "btn btn-primary pull-right" %>
+  </div>
+</div>
+
