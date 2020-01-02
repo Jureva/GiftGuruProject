@@ -13,7 +13,7 @@ gem 'coffee-rails', '~> 4.2.2'
 # gem 'therubyracer', platforms: :ruby
 
 # *Custom* - Added Bootstrap.
-gem 'bootstrap-sass',       '3.3.7'
+gem 'bootstrap-sass',       '3.4.1'
 # *Custom* - Added to get Active record working.
 gem 'arel', '6.0.0'
 # *Custom* - Added for secure password hashing.
