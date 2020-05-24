@@ -10,10 +10,10 @@ gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '~> 4.2.2'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
- gem 'therubyracer', #platforms: :ruby
+ gem 'therubyracer' #platforms: :ruby
 
 # *Custom* - Added Bootstrap.
-gem 'bootstrap-sass',       '3.4.1'
+gem 'bootstrap-sass', '~> 3.4.1'
 # *Custom* - Added to get Active record working.
 gem 'arel', '6.0.0'
 # *Custom* - Added for secure password hashing.
